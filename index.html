@@ -8,9 +8,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
+    <header>
+        <!-- right side -->
+        <ul class="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+
+        <!-- left side -->
+        <ul class="footer-links">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">Y</a></li>
+
+        </ul>
+    </header>
     <body>
-        <main>
-            <div class="container">
+        <main class="container">
+            <section id="top-half">
                 <h1 id="main-logo">
                     <span style="color: #4A75E6">G</span>
                     <span style="color: #EA2533">o</span>
@@ -19,30 +35,32 @@
                     <span style="color: #08AF22">l</span>
                     <span style="color: #EA2533">e</span>
                 </h1>
+            </section>
 
-                <div id="search-bar"></div>
-                
-                <div class="btns">
-                    <a href="#" class="btn">Google Search</a>>
-                    <a href="#" class="btn">I'm Feeling Lucky</a>>
+            <section id="bottom-half">
+                <input type="text" id="search-bar"></input>
+            
+                <div id="btns">
+                    <a href="#" class="btn">Google Search</a>
+                    <a href="#" class="btn">I'm Feeling Lucky</a>
                 </div>
-            </main>
-        </div>
-        
+            </section>
+                
+        </main>        
     </body>
     <footer>
         <!-- right side -->
         <ul class="footer-links">
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
         </ul>
 
         <!-- left side -->
         <ul class="footer-links">
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
         </ul>
     </footer>
 </html>
