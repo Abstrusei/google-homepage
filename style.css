@@ -1,0 +1,53 @@
+/* GENERAL */
+:root {
+    --palegrey: #EBECF0;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: 	#696969;
+}
+
+/* MAIN */
+main {
+     height: 95vh;
+     display: flex;
+     align-items: center;
+}
+
+#main-logo {
+    font-size: 80px;
+    text-align: center;
+}
+
+
+.btn {
+    background-color: var(--palegrey, #EBECF0);
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+/* FOOTER */
+footer {
+    height: 5vh;
+    display: flex;
+    background-color: var(--palegrey, #EBECF0);
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
